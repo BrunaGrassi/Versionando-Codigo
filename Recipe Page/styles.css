@@ -1,0 +1,35 @@
+* {
+    margin: 0 auto;
+    align-items: center;
+    font-family: ;
+}
+
+body {
+    text-align: center;
+    background-color: hsl(30, 54%, 90%);
+}
+
+img {
+    max-width: 700px;
+}
+
+.card {
+    width: 800px;
+    background-color: white;
+    margin: 50 0 50 0;
+    padding: 50 0 50 0;
+}
+
+.preparation {
+    text-align: left;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.preparation h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.tamanho-padrao {
+    padding: 50px 50px;
+    text-align: left;
+}
