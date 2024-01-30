@@ -10,17 +10,25 @@
 
 * {
     margin: 0 auto;
-    align-items: center;
     font-family: 'Outfit', serif;
 }
 
 body {
-    text-align: center;
     background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
 }
 
+
 img {
-    max-width: 700px;
+    max-width: 740px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.imagem-descricao {
+    padding: 0 30px;
 }
 
 h1, h2 {
@@ -28,8 +36,14 @@ h1, h2 {
     font-family: 'Young Serif', serif;
 }
 
+h1 {
+    margin: 20px 0;
+}
+
 h2 {
     color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    margin: 15px 0;
 }
 
 p, li {
@@ -39,7 +53,7 @@ p, li {
 
 
 li {
-    margin: 10px 0;
+    padding: 7px 15px
     
 }
 
@@ -58,30 +72,40 @@ span {
     color: hsl(12, 2%, 39%);
 }
 
+table {
+    margin: 10px 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
 td {
     border-bottom: solid 1px hsl(30, 18%, 87%);
+    padding: 15px 20px;
+    text-align: left;
 }
 
 .card {
     width: 800px;
     background-color: white;
     margin: 50px 0px;
-    padding: 50px 0px;
+    padding: 40px 10px;
+    border-radius: 20px;
 }
 
 .preparation {
     text-align: left;
     background-color: hsl(330, 100%, 98%);
     padding: 30px 30px;
-    margin: 30px 30px;
+    margin: 30px 30px 0 30px;
+    border-radius: 20px;
 }
 
 .preparation h3 {
     color: hsl(332, 51%, 32%);
-    margin: 15px
+    margin-bottom: 15px;
 }
 
 .tamanho-padrao {
-    padding: 50px 50px;
+    padding: 10px 30px 30px 20px;
     text-align: left;
 }
